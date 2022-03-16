@@ -1,5 +1,5 @@
-# Digit-Recognizer
-Digit recognizer from Scratch with Numpy and Pandas
+# Digit Recognizer
+Digit recognizer from scratch with Numpy and Pandas
 
 ## Data Preprocessing
 The MNIST dataset is used for training and testing the Neural Network. More information regarding the dataset can be found [here](http://yann.lecun.com/exdb/mnist/).

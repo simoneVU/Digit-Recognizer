@@ -11,4 +11,4 @@ Train data is then shuffled to avoid any sort of bias while learning.
 ![Digit_Recognizer_overview drawio](https://user-images.githubusercontent.com/60779914/158414671-697d35ff-4e3e-4fce-914f-610df7b7460d.png)
 
 ## The NN model
-The NN model consists of 1 input layer with 784 input neurons (same as the number of pixels for the images) and 2 hidden layers of 10 neurons each. Between the  the 1st hidden layer and the second one the rectified non-linear activation function is applied, while, between the 2nd hidden layer and the output layer the softmax function is applied.
+The NN model consists of 1 input layer with 784 input neurons (same as the number of pixels for the images), 1 hidden layer and one ouptup layer with 10 neurons each. Between the  the 1st hidden layer and the output layer the rectified non-linear activation function is applied, while, after the output layer the softmax function is applied.

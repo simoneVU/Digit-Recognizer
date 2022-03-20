@@ -17,3 +17,7 @@ The NN model consists of 1 input layer with 784 input neurons (same as the numbe
 In the forward pass the input image is fed into the neural network as an array of pixels. Between the input and the hidden layer, the pixels of the input image are multiplied by the corresponding randomly initialized weight matrix, and the bias is added. Then, the activation function is applied to the result of weight matrix * input + bias. Hence, the activation value of each neuron is computed for ecah layer until the output layer(as shown in the image below).
 
 ![Digit_Recognizer_overview drawio](https://user-images.githubusercontent.com/60779914/158630914-24732ba1-a38f-4404-95d1-961bf79db2ad.png)
+ 
+ ### Backward Pass
+ For the backward pass the mean square error is used to calculate the loss. Then, the partial derivatives are computed and the weights and biases are updated respectively with the Vanilla update. The accuracy is computed as the number of correct predictions over the number of total target values each 10 iterations of the gradient descent algorithm.
+ 
